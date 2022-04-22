@@ -63,6 +63,7 @@ li::first-letter {
   top: -34px;
 }
 
+#celsius,
 #fahrenheit {
   text-decoration: none;
 }
@@ -70,4 +71,14 @@ li::first-letter {
 #open-source-code {
   text-decoration: none;
   padding: 0px 0px 0px 20px;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+  color: orange;
 }
