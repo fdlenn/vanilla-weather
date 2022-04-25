@@ -41,6 +41,10 @@ li::first-letter {
   border: 1px solid #ced4da;
 }
 
+.btn-primary :hover {
+  background: #ec6e4c;
+}
+
 .weather-app {
   padding: 20px;
   border: 1px solid #ced4da;
