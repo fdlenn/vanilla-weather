@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins", sans-serif;
-  color: #264e70;
 }
 
 h1 {
@@ -9,11 +8,10 @@ h1 {
   line-height: 29px;
   margin-bottom: 10px;
   padding-top: 20px;
-  color: #264e70;
+  color: #1a73e8;
 }
 
 ul {
-  color: #264e70;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +20,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #264e70;
+  color: black;
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
@@ -37,12 +35,8 @@ li::first-letter {
 }
 
 .btn-primary {
-  background-color: #264e70;
+  background-color: #1a73e8;
   border: 1px solid #ced4da;
-}
-
-.btn-primary :hover {
-  background: #ec6e4c;
 }
 
 .weather-app {
@@ -66,7 +60,7 @@ li::first-letter {
 }
 
 .weather-temperature strong {
-  color: #264e70;
+  color: #1a73e8;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -81,21 +75,17 @@ li::first-letter {
 #open-source-code {
   text-decoration: none;
   padding: 0px 0px 0px 20px;
-  color: #ec6e4c;
+  color: #1a73e8;
 }
 
 .weather-temperature .active {
-  color: #264e70;
+  color: #1a73e8;
   cursor: default;
   text-decoration: none;
 }
 
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
-
 #temperature {
-  color: #264e70;
+  color: #1a73e8;
 }
 
 #celsius {
@@ -105,11 +95,6 @@ li::first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-}
-
-.weather-forecast-date {
-  font-size: 16px;
-  color: #264e70;
 }
 
 .weather-forecast-temperature {
